@@ -40,17 +40,19 @@ span {
 /* 头部样式 */
 header {
 	display: flex;
-	flex: auto;
+	flex: 1;
 	flex-direction: row;
 	justify-content: center;
 	position: relative;
 }
 
 header span {
+	display: flex;
 	flex: auto;
+	justify-content: center;
+	align-items: center;
 	margin: 0.6rem 0.2rem;
 	padding: 0.1rem 0.1rem;
-	text-align: center;
 }
 
 .location {
@@ -92,7 +94,7 @@ header span {
 /* 主体部分 */
 .main {
 	display: flex;
-	flex: auto;
+	flex: 9;
 	flex-direction: row;
 	justify-content: center;
 	align-items: stretch;
