@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    color: #000;
+    font-size: 16px;
+    line-height: 26px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+a {
+    color: #000;
+}
+.hot {
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+}
+.hot1,.hot2,.hot3,.hot4,.hot5,.hot6,.hot7,.hot8,.hot9,.hot10,.hot11,.hot12,.hot13,.hot14,.hot15,.hot16,.hot17,.hot18{
+    width: 24%;
+    height: 225px;
+    
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border: 1px solid #f1f1f1;
+    background-color: blanchedalmond;
+    margin: 5px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+p {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
