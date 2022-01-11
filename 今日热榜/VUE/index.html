@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>今日热榜</title>
+	<style>
+		a {
+			color: #666;
+			text-decoration: none;
+		}
+	</style>
+	<!-- <link rel="stylesheet" href="CSS/base.css"> -->
+	<!-- <link rel="stylesheet" href="CSS/index.css"> -->
+	<script src="https://cdn.staticfile.org/vue/2.4.2/vue.min.js"></script>
+	<script src="https://cdn.staticfile.org/axios/0.18.0/axios.min.js"></script>
+	<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+</head>
+
+<body>
+	<div class="hot">
+		<div class="hot1">
+			<p>百度</p>
+			<div id="hot1_tb">
+				<div class="hot1_tb" v-for="bai in info" >{{bai.id}}{{bai.title}}{{bai.hotNum}}</div>
+			</div>
+		</div>
+	</div>
+	<script src="index.js"></script>
+</body>
+
+</html>
